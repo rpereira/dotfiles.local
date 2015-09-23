@@ -1,0 +1,14 @@
+# Use vim as the visual editor
+export VISUAL=vim
+export EDITOR=$VISUAL
+
+# Shiftit
+export SHIFTIT="/home/rap/repos/shiftit"
+
+# Add ~/.rbenv/bin to your $PATH for access to the rbenv command-line utility.
+export PATH="$HOME/.rbenv/bin:$PATH"
+
+# Load rbenv if available.
+if which rbenv &>/dev/null ; then
+  eval "$(rbenv init - --no-rehash)"
+fi
