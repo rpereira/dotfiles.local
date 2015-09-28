@@ -1,3 +1,6 @@
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'tpope/vim-rails'
-Plugin 'vim-ruby/vim-ruby'
+" Languages
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffee'       }
+Plug 'plasticboy/vim-markdown',  { 'for': 'markdown'     }
+Plug 'vim-ruby/vim-ruby',        { 'for': 'ruby'         }
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-haml',           { 'for': 'haml'         }
