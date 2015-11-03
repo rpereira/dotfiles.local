@@ -8,3 +8,7 @@ alias aguu='agu && agug'
 alias agr='sudo apt-get uninstall'
 alias agp='sudo apt-get purge'
 alias aga='sudo apt-get autoremove'
+
+# Shiftit
+alias start="bundle exec foreman start -f Procfile.dev"
+alias migrate="foreman run rake db:migrate"
